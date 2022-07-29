@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import logo from 'D:/upGrad/reactProjects/movies-app/src/assets/logo.svg';
+import logo from '../../assets/logo.svg';
 import './Header.css';
 class Header extends Component {
  render() {
