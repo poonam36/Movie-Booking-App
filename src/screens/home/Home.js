@@ -3,6 +3,7 @@ import Header from '../../common/header/Header';
 import './Home.css';
 import SingleLineImageList from './SingleLineImageList';
 import ImagelistwithTitlebar from './ImagelistwithTitlebar';
+import FormFilters from './FormFilters';
 import moviesData from '../../common/moviesData';
 class Home extends Component {
     render() {
@@ -19,7 +20,7 @@ class Home extends Component {
        <ImagelistwithTitlebar itemData={moviesData} />
         </div>
         <div className = "filters">
-        <span id="findMovies">FIND MOVIES BY:</span>
+        <FormFilters/>
         </div>
     </div>
     </div>
